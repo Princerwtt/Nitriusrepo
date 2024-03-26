@@ -1,0 +1,48 @@
+body {
+     /* Adjust the margin values as needed */
+  }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white; /* Example background color */
+    margin: 0 5rem;
+  }
+  
+.navbar__left{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+  .navbar__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar__menu li {
+    margin-right: 1rem; /* Example spacing between menu items */
+    color: #0c0c0c; /* Example color */
+  }
+  
+  .enquire__button {
+    background-color: #fff; /* White background */
+    border: 2px solid blue; /* Blue border */
+    color: blue; /* Blue text color */
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .enquire__button:hover {
+    background-color: blue; /* Change background color on hover */
+    color: #0e0d0d; /* Change text color on hover */
+  }
+  

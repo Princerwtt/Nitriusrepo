@@ -1,0 +1,48 @@
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 6rem;
+    padding-top: 5rem;
+  }
+  
+  .batches {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8rem;
+  }
+  
+  .batch-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .batch-type {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .mid-strip{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to right, hsl(229, 80%, 8%), hsl(234, 92%, 33%)); /* Dark green gradient background */
+    color: #fff;
+    margin-top: 6rem;
+    height: 10rem;
+  }
+  .mid-strip h3 {
+    margin-top: 3.5rem;
+    font-size: 2rem;
+  }
+  .learn-more {
+    margin-top: 3.5rem;
+    background-color: #f3f6f8;
+    color: #1e2ce6;
+    border: none;
+    height: 3.5rem;
+    width: 10rem;
+    border-radius: 4px;
+    font-size: 1rem;
+  }

@@ -1,0 +1,16 @@
+.main-div{
+    margin: 0 6rem;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    border-radius: 12px;
+}
+.questions{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.que-2{
+    display: flex;
+    justify-content:space-evenly ;
+    
+}

@@ -1,0 +1,23 @@
+.footer-main{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #080101;
+    padding: 20px;
+}
+.left{
+    color: white;
+
+}
+
+.right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
